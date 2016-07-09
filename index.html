@@ -79,7 +79,7 @@
 						<li>Links</li>
 						
 						
-						<li>Über</li>
+						<li>About</li>
 						
 					</ul>
 				</div>
@@ -255,7 +255,17 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo generate</div><div class="line">hexo deploy</div></pre></td></tr></table></figure>
 <p>或者他们的缩写</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo g</div><div class="line">hexo d</div></pre></td></tr></table></figure>
-<h2 id="解决乱码"><a href="#解决乱码" class="headerlink" title="解决乱码"></a>解决乱码</h2><p><a href="http://blog.csdn.net/jiluben/article/details/40656935" target="_blank" rel="external">参考</a><br>将博客文件保存为UTF-8即可解决问题。<br>方法：<br>    1.将博客文件保存为UTF-8:<br>    用记事本打开本地的博客文件“xxx.md”，然后点“另存为”，“编码(E):”选择“UTF-8”，点击“保存”，替换原文件。<br>    2.重新生成，部署，博客乱码即消除。</p>
+<h2 id="写Blog"><a href="#写Blog" class="headerlink" title="写Blog"></a>写Blog</h2><h3 id="部署blog主页"><a href="#部署blog主页" class="headerlink" title="部署blog主页"></a>部署blog主页</h3><h3 id="写blog"><a href="#写blog" class="headerlink" title="写blog"></a>写blog</h3><p>我们的blog默认有一条Hello World，它不仅告诉我们怎么创建blog，我们还可以参考它的源代码，写出和它相同的效果。<br>Hello World代码的地址： hexo主页/source/_posts/hello_world.md</p>
+<p>我们创建一条blog</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>生成文件：hexo主页/source/_posts/My-New-Post.md<br>可以用记事本打开编辑它。参考Hello World来写。<br>写完保存。</p>
+<p>执行命令更新内容。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo generate</div><div class="line">hexo deploy</div></pre></td></tr></table></figure>
+<p>一般情况下会乱码。</p>
+<h3 id="解决乱码"><a href="#解决乱码" class="headerlink" title="解决乱码"></a>解决乱码</h3><p><a href="http://blog.csdn.net/jiluben/article/details/40656935" target="_blank" rel="external">参考</a><br>将博客文件保存为UTF-8即可解决问题。<br>方法：<br>    1.将博客文件保存为UTF-8:<br>    用记事本打开本地的博客文件“xxx.md”，然后点“另存为”，“编码(E):”选择“UTF-8”，点击“保存”，替换原文件。<br>    2.重新生成，部署，博客乱码即消除。</p>
+<h3 id="无法更新到Github上"><a href="#无法更新到Github上" class="headerlink" title="无法更新到Github上"></a>无法更新到Github上</h3><p>个人遇到的问题：创建博客后，执行<br>hexo generate<br>hexo deploy<br>发生错误，无法更新到Github上。本地可以看到更新内容。</p>
+<p>网上寻找方法，好像是因为没有添加ssh，可<a href="http://jingyan.baidu.com/article/d8072ac47aca0fec95cefd2d.html" target="_blank" rel="external">参考</a>,当我进入Github准备添加ssh时，发现Github上有一句话说：如果你有windows版github客户端，就不需要添加ssh。</p>
+<p>个人最终解决方法：<br>安装github客户端后，桌面会有Git Shell图标，进入后执行命令，进入hexo主目录（用Linux命令），执行<br>hexo generate<br>hexo deploy<br>浏览器输入blog网址，更新成功。</p>
 
       
     </div>
