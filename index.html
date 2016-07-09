@@ -79,7 +79,7 @@
 						<li>Links</li>
 						
 						
-						<li>About</li>
+						<li>Über</li>
 						
 					</ul>
 				</div>
@@ -229,8 +229,34 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>几年前有使用过Google的blogger写过一段时间博客，不过后来渐渐懒惰了。最近工作遇到问题查找资料时，发现一些牛人把一些技术上难题的解决方法，以及自己所学得的技术，用Blog记录。觉得这是个不错的想法，一直有用word记录的习惯，不过Blog漂亮的书写，清晰的结构，配上图片，给人更美的感觉。不仅如此，最大的优点是，将自己的遇到的难题、所得所获分享给需要的人，当我们遇到难题希望从互联网上寻找到答案时，我们所渴望的就是我们应该付出的。</p>
-<p>在网上看到一个不错的的博客，布局完美，还有一些好的资源，附上链接<a href="http://blog.isming.me/" target="_blank" rel="external">码农明明桑</a>。刚开始想学习他的Blog来搭建自己的博客，不过无从下手，从他的域名看不出用什么网站搭建的，他的blog主页也没有发现有关信息（其实右下角有两个英文单词超链接就是所有答案，不过刚开始点击后，都是英文，觉得是无关的，没在意。）最后上网搜了几个类似的Blog，从他们的域名发现的答案，很多是以github.io为结尾，Github上搭建的Blog。<br>下面的搭建过程的记录。</p>
-<h2 id="创建Github-Blog"><a href="#创建Github-Blog" class="headerlink" title="创建Github Blog"></a>创建Github Blog</h2><h3 id="创建Github账号"><a href="#创建Github账号" class="headerlink" title="创建Github账号"></a>创建Github账号</h3><h3 id="在Github上搭建Blog"><a href="#在Github上搭建Blog" class="headerlink" title="在Github上搭建Blog"></a>在Github上搭建Blog</h3>
+<p>在网上看到一个不错的的博客，布局完美，还有一些好的资源，附上链接<a href="http://blog.isming.me/" target="_blank" rel="external">码农明明桑</a>。刚开始想学习他的Blog来搭建自己的博客，不过无从下手，从他的域名看不出用什么网站搭建的，他的blog主页也没有发现有关信息（其实右下角有两个英文单词超链接就是所有答案，不过刚开始点击后，都是英文，觉得是无关的，没在意。）最后上网搜了几个类似的Blog，从他们的域名发现的答案，很多是以github.io为结尾，Github上搭建的Blog。<br>下面的搭建过程的记录。(运行环境Windows10_x64)<br>参考<a href="http://www.zipperary.com/2013/05/28/hexo-guide-2/" target="_blank" rel="external">blog</a></p>
+<h2 id="创建Github-Blog"><a href="#创建Github-Blog" class="headerlink" title="创建Github Blog"></a>创建Github Blog</h2><h3 id="创建Github账号"><a href="#创建Github账号" class="headerlink" title="创建Github账号"></a>创建Github账号</h3><h3 id="在Github上搭建Blog"><a href="#在Github上搭建Blog" class="headerlink" title="在Github上搭建Blog"></a>在Github上搭建Blog</h3><h2 id="本地搭建环境"><a href="#本地搭建环境" class="headerlink" title="本地搭建环境"></a>本地搭建环境</h2><h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3><p>下载并安装<a href="https://git-for-windows.github.io/" target="_blank" rel="external">git</a></p>
+<h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><p>下载并安装<a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a></p>
+<h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><p>利用 npm 命令即可安装。（在任意位置点击鼠标右键，选择Git bash）<br>(实测超级慢)</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -g hexo</div></pre></td></tr></table></figure>
+<h3 id="创建hexo文件夹"><a href="#创建hexo文件夹" class="headerlink" title="创建hexo文件夹"></a>创建hexo文件夹</h3><p>安装完成后，在你喜爱的文件夹下（如H:\hexo），执行以下指令(在H:\hexo内点击鼠标右键，选择Git bash)，Hexo 即会自动在目标文件夹建立网站所需要的所有文件。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo init</div></pre></td></tr></table></figure>
+<h3 id="安装依赖包"><a href="#安装依赖包" class="headerlink" title="安装依赖包"></a>安装依赖包</h3><p>（很慢，等待完成。）</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install</div></pre></td></tr></table></figure>
+<h3 id="本地查看"><a href="#本地查看" class="headerlink" title="本地查看"></a>本地查看</h3><p>现在我们已经搭建起本地的hexo博客了，执行以下命令(在H:\hexo)，然后到浏览器输入localhost:4000看看。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo generate</div><div class="line">hexo server</div></pre></td></tr></table></figure>
+<p>好了，至此，本地博客已经搭建起来了，只是本地哦，别人看不到的。下面，我们要部署到Github。</p>
+<h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><p>编辑_config.yml(在H:\hexo下)。你在部署时，要把下面的zippera都换成你的账号名。<br>(注意这一步很容易出错，:后面一定要空格，比如”type: git”，中间有个空格)</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  <span class="built_in">type</span>: git</div><div class="line">  repository: https://github.com/zippera/zippera.github.io.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure>
+<h3 id="提交"><a href="#提交" class="headerlink" title="提交"></a>提交</h3><p>执行下列指令即可完成部署并提交。<br>(我在执行hexo deploy遇到问题，无法提交到Github，最后<a href="https://segmentfault.com/q/1010000002764038" target="_blank" rel="external">参考</a>解决方法，使用一条命令：<br>“npm install hexo-deployer-git –save”<br>然后再执行下面两条命令。)</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo generate</div><div class="line">hexo deploy</div></pre></td></tr></table></figure>
+<p>你的blog已经部署到github上，在浏览器上输入你blog的网址即可查看，如：zippera.github.io.git。查看本地：<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a></p>
+<h2 id="部署Yilia主题"><a href="#部署Yilia主题" class="headerlink" title="部署Yilia主题"></a>部署Yilia主题</h2><h3 id="下载主题"><a href="#下载主题" class="headerlink" title="下载主题"></a>下载主题</h3><p>可参考<a href="http://www.a-ho.com/2016/01/05/hexo-%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/" target="_blank" rel="external">blog</a>或者<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external">项目地址</a><br>进入 hexo 主目录,右击鼠标选择git bash</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git <span class="built_in">clone</span> https://github.com/litten/hexo-theme-yilia.git themes/yilia</div></pre></td></tr></table></figure>
+<h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3><p>配置:<br>修改hexo根目录下的<br>_config.yml ： theme: yilia</p>
+<h3 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> themes/yilia</div><div class="line">git pull</div></pre></td></tr></table></figure>
+<p>你的blog已经更新，浏览器输入地址可查看，如：zippera.github.io.git。</p>
+<h3 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h3><p>每次修改后更新</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo generate</div><div class="line">hexo deploy</div></pre></td></tr></table></figure>
+<p>或者他们的缩写</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo g</div><div class="line">hexo d</div></pre></td></tr></table></figure>
+<h2 id="解决乱码"><a href="#解决乱码" class="headerlink" title="解决乱码"></a>解决乱码</h2><p><a href="http://blog.csdn.net/jiluben/article/details/40656935" target="_blank" rel="external">参考</a><br>将博客文件保存为UTF-8即可解决问题。<br>方法：<br>    1.将博客文件保存为UTF-8:<br>    用记事本打开本地的博客文件“xxx.md”，然后点“另存为”，“编码(E):”选择“UTF-8”，点击“保存”，替换原文件。<br>    2.重新生成，部署，博客乱码即消除。</p>
+
       
     </div>
     
