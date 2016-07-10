@@ -257,7 +257,11 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo generate</div><div class="line">hexo deploy</div></pre></td></tr></table></figure>
 <p>或者他们的缩写</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo g</div><div class="line">hexo d</div></pre></td></tr></table></figure>
-<h2 id="写Blog"><a href="#写Blog" class="headerlink" title="写Blog"></a>写Blog</h2><h3 id="部署blog主页"><a href="#部署blog主页" class="headerlink" title="部署blog主页"></a>部署blog主页</h3><h3 id="写blog"><a href="#写blog" class="headerlink" title="写blog"></a>写blog</h3><p>我们的blog默认有一条Hello World，它不仅告诉我们怎么创建blog，我们还可以参考它的源代码，写出和它相同的效果。<br>Hello World代码的地址： hexo主页/source/_posts/hello_world.md</p>
+<h3 id="配置多说"><a href="#配置多说" class="headerlink" title="配置多说"></a>配置多说</h3><h2 id="写Blog"><a href="#写Blog" class="headerlink" title="写Blog"></a>写Blog</h2><h3 id="部署blog主页"><a href="#部署blog主页" class="headerlink" title="部署blog主页"></a>部署blog主页</h3><h4 id="头像"><a href="#头像" class="headerlink" title="头像"></a>头像</h4><p>首先你得把头像图片上传到网上, 我是在网上找的图片。 <a href="http://www.a-ho.com/2016/01/05/hexo-%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/" target="_blank" rel="external">参考</a><br>然后配置文件 themes/yilia/_config.yml :<br>设置头像</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">avatar: <span class="string">"https://www.thongtincongnghe.com/sites/default/files/imagecache/xw640/images/2014/9/18/img-1411027212-1.jpg"</span></div></pre></td></tr></table></figure>
+<p>网页icon</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">favicon: <span class="string">"http://7xpsj5.com1.z0.glb.clouddn.com/%E5%B0%8F%E9%BB%84.jpg"</span></div></pre></td></tr></table></figure>
+<h3 id="写blog"><a href="#写blog" class="headerlink" title="写blog"></a>写blog</h3><p>我们的blog默认有一条Hello World，它不仅告诉我们怎么创建blog，我们还可以参考它的源代码，写出和它相同的效果。<br>Hello World代码的地址： hexo主页/source/_posts/hello_world.md</p>
 <p>我们创建一条blog</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>生成文件：hexo主页/source/_posts/My-New-Post.md<br>可以用记事本打开编辑它。参考Hello World来写。<br>写完保存。</p>
@@ -268,9 +272,10 @@
 <h3 id="无法更新到Github上"><a href="#无法更新到Github上" class="headerlink" title="无法更新到Github上"></a>无法更新到Github上</h3><p>个人遇到的问题：创建博客后，执行<br>hexo generate<br>hexo deploy<br>发生错误，无法更新到Github上。本地可以看到更新内容。</p>
 <p>网上寻找方法，好像是因为没有添加ssh，可<a href="http://jingyan.baidu.com/article/d8072ac47aca0fec95cefd2d.html" target="_blank" rel="external">参考</a>,当我进入Github准备添加ssh时，发现Github上有一句话说：如果你有windows版github客户端，就不需要添加ssh。</p>
 <p>个人最终解决方法：<br>安装github客户端后，桌面会有Git Shell图标，进入后执行命令，进入hexo主目录（用Linux命令），执行<br>hexo generate<br>hexo deploy<br>浏览器输入blog网址，更新成功。</p>
-<h3 id="使用图片"><a href="#使用图片" class="headerlink" title="使用图片"></a>使用图片</h3><p>首先确认 _config.yml 中有 post_asset_folder:true 。<br>在 hexo 目录，执行</p>
+<h3 id="使用图片"><a href="#使用图片" class="headerlink" title="使用图片"></a>使用图片</h3><p>首先确认 _config.yml 中有 post_asset_folder:true 。<a href="https://codefalling.com/2015/12/19/no-pains-with-hexo-local-image/" target="_blank" rel="external">参考</a><br>在 hexo 目录，执行</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install https://github.com/CodeFalling/hexo-asset-image --save</div></pre></td></tr></table></figure>
-<p><img src="My-New-Post/p1.jpg" alt="logo"></p>
+<p>执行成功后，将图片放在/hexo主目录/public/日期/项目名/图片.jpg<br>例如：public/2016/07/07/My-New-Post/p1.jpg<br><img src="/2016/07/07/My-New-Post/p1.png" alt="logo"><br>使用时,引用语法：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![logo](/2016/07/07/My-New-Post/p1.png)</div></pre></td></tr></table></figure></p>
+<h3 id="配置多说评论"><a href="#配置多说评论" class="headerlink" title="配置多说评论"></a>配置多说评论</h3><p>首先打开<a href="http://duoshuo.com/" target="_blank" rel="external">多说</a>网站</p>
 
       
     </div>
