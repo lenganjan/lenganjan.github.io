@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Sen Jan</title>
+  <subtitle>求知若饥 虚心若愚</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-11-27T02:01:37.768Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Sen Jan</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://yoursite.com/2016/11/27/test/"/>
+    <id>http://yoursite.com/2016/11/27/test/</id>
+    <published>2016-11-27T02:01:37.000Z</published>
+    <updated>2016-11-27T02:01:37.768Z</updated>
+    
+    <content type="html"></content>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2016/11/26/hello-world/"/>
+    <id>http://yoursite.com/2016/11/26/hello-world/</id>
+    <published>2016-11-26T15:25:01.864Z</published>
+    <updated>2016-07-06T15:24:38.020Z</updated>
+    
+    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo server&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo generate&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo deploy&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>如何搭建Hexo博客，加上Yilia 主题。</title>
+    <link href="http://yoursite.com/2016/11/26/My-New-Post/"/>
+    <id>http://yoursite.com/2016/11/26/My-New-Post/</id>
+    <published>2016-11-26T15:25:01.852Z</published>
+    <updated>2016-07-10T14:54:51.976Z</updated>
+    
+    <content type="html">&lt;p&gt;几年前有使用过Google的blogger写过一段时间博客，不过后来渐渐懒惰了。最近工作遇到问题查找资料时，发现一些牛人把一些技术上难题的解决方法，以及自己所学得的技术，用Blog记录。觉得这是个不错的想法，一直有用word记录的习惯，不过Blog漂亮的书写，清晰的结构，配上图片，给人更美的感觉。不仅如此，最大的优点是，将自己的遇到的难题、所得所获分享给需要的人，当我们遇到难题希望从互联网上寻找到答案时，我们所渴望的就是我们应该付出的。&lt;/p&gt;
+&lt;p&gt;在网上看到一个不错的的博客，布局完美，还有一些好的资源，附上链接&lt;a href=&quot;http://blog.isming.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;码农明明桑&lt;/a&gt;。刚开始想学习他的Blog来搭建自己的博客，不过无从下手，从他的域名看不出用什么网站搭建的，他的blog主页也没有发现有关信息（其实右下角有两个英文单词超链接就是所有答案，不过刚开始点击后，都是英文，觉得是无关的，没在意。）最后上网搜了几个类似的Blog，从他们的域名发现的答案，很多是以github.io为结尾，Github上搭建的Blog。&lt;br&gt;下面的搭建过程的记录。(运行环境Windows10_x64)&lt;br&gt;参考&lt;a href=&quot;http://www.zipperary.com/2013/05/28/hexo-guide-2/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;blog&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;创建Github-Blog&quot;&gt;&lt;a href=&quot;#创建Github-Blog&quot; class=&quot;headerlink&quot; title=&quot;创建Github Blog&quot;&gt;&lt;/a&gt;创建Github Blog&lt;/h2&gt;&lt;h3 id=&quot;创建Github账号&quot;&gt;&lt;a href=&quot;#创建Github账号&quot; class=&quot;headerlink&quot; title=&quot;创建Github账号&quot;&gt;&lt;/a&gt;创建Github账号&lt;/h3&gt;&lt;p&gt;在&lt;a href=&quot;http://www.github.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Github&lt;/a&gt;上注册&lt;/p&gt;
+&lt;h3 id=&quot;在Github上搭建Blog&quot;&gt;&lt;a href=&quot;#在Github上搭建Blog&quot; class=&quot;headerlink&quot; title=&quot;在Github上搭建Blog&quot;&gt;&lt;/a&gt;在Github上搭建Blog&lt;/h3&gt;&lt;p&gt;在自己Github主页右下角，创建一个新的repository。比如我的Github账号是zippera，那么我应该创建的repository名字应该是zippera.github.io。&lt;br&gt;进入博客后，会出现404错误，很多网友说是github缓存的原因，等待几分钟就可以了，但是本人等待很久也没有反应，最后解决的方式是，github发送一条认证邮件到你的邮箱，点击链接，添加一个新的邮箱。&lt;/p&gt;
+&lt;h2 id=&quot;本地搭建环境&quot;&gt;&lt;a href=&quot;#本地搭建环境&quot; class=&quot;headerlink&quot; title=&quot;本地搭建环境&quot;&gt;&lt;/a&gt;本地搭建环境&lt;/h2&gt;&lt;h3 id=&quot;安装Git&quot;&gt;&lt;a href=&quot;#安装Git&quot; class=&quot;headerlink&quot; title=&quot;安装Git&quot;&gt;&lt;/a&gt;安装Git&lt;/h3&gt;&lt;p&gt;下载并安装&lt;a href=&quot;https://git-for-windows.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;git&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;安装Node-js&quot;&gt;&lt;a href=&quot;#安装Node-js&quot; class=&quot;headerlink&quot; title=&quot;安装Node.js&quot;&gt;&lt;/a&gt;安装Node.js&lt;/h3&gt;&lt;p&gt;下载并安装&lt;a href=&quot;https://nodejs.org/en/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Node.js&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;安装hexo&quot;&gt;&lt;a href=&quot;#安装hexo&quot; class=&quot;headerlink&quot; title=&quot;安装hexo&quot;&gt;&lt;/a&gt;安装hexo&lt;/h3&gt;&lt;p&gt;利用 npm 命令即可安装。（在任意位置点击鼠标右键，选择Git bash）&lt;br&gt;(实测超级慢)&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;npm install -g hexo&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;创建hexo文件夹&quot;&gt;&lt;a href=&quot;#创建hexo文件夹&quot; class=&quot;headerlink&quot; title=&quot;创建hexo文件夹&quot;&gt;&lt;/a&gt;创建hexo文件夹&lt;/h3&gt;&lt;p&gt;安装完成后，在你喜爱的文件夹下（如H:\hexo），执行以下指令(在H:\hexo内点击鼠标右键，选择Git bash)，Hexo 即会自动在目标文件夹建立网站所需要的所有文件。&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo init&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;安装依赖包&quot;&gt;&lt;a href=&quot;#安装依赖包&quot; class=&quot;headerlink&quot; title=&quot;安装依赖包&quot;&gt;&lt;/a&gt;安装依赖包&lt;/h3&gt;&lt;p&gt;（很慢，等待完成。）&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;npm install&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;本地查看&quot;&gt;&lt;a href=&quot;#本地查看&quot; class=&quot;headerlink&quot; title=&quot;本地查看&quot;&gt;&lt;/a&gt;本地查看&lt;/h3&gt;&lt;p&gt;现在我们已经搭建起本地的hexo博客了，执行以下命令(在H:\hexo)，然后到浏览器输入localhost:4000看看。&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo generate&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo server&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;好了，至此，本地博客已经搭建起来了，只是本地哦，别人看不到的。下面，我们要部署到Github。&lt;/p&gt;
+&lt;h3 id=&quot;部署&quot;&gt;&lt;a href=&quot;#部署&quot; class=&quot;headerlink&quot; title=&quot;部署&quot;&gt;&lt;/a&gt;部署&lt;/h3&gt;&lt;p&gt;编辑_config.yml(在H:\hexo下)。你在部署时，要把下面的zippera都换成你的账号名。&lt;br&gt;(注意这一步很容易出错，:后面一定要空格，比如”type: git”，中间有个空格)&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;deploy:&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &lt;span class=&quot;built_in&quot;&gt;type&lt;/span&gt;: git&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  repository: https://github.com/zippera/zippera.github.io.git&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  branch: master&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;提交&quot;&gt;&lt;a href=&quot;#提交&quot; class=&quot;headerlink&quot; title=&quot;提交&quot;&gt;&lt;/a&gt;提交&lt;/h3&gt;&lt;p&gt;执行下列指令即可完成部署并提交。&lt;br&gt;(我在执行hexo deploy遇到问题，无法提交到Github，最后&lt;a href=&quot;https://segmentfault.com/q/1010000002764038&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;参考&lt;/a&gt;解决方法，使用一条命令：&lt;br&gt;“npm install hexo-deployer-git –save”&lt;br&gt;然后再执行下面两条命令。)&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo generate&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo deploy&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;你的blog已经部署到github上，在浏览器上输入你blog的网址即可查看，如：zippera.github.io.git。查看本地：&lt;a href=&quot;http://localhost:4000&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://localhost:4000&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;部署Yilia主题&quot;&gt;&lt;a href=&quot;#部署Yilia主题&quot; class=&quot;headerlink&quot; title=&quot;部署Yilia主题&quot;&gt;&lt;/a&gt;部署Yilia主题&lt;/h2&gt;&lt;h3 id=&quot;下载主题&quot;&gt;&lt;a href=&quot;#下载主题&quot; class=&quot;headerlink&quot; title=&quot;下载主题&quot;&gt;&lt;/a&gt;下载主题&lt;/h3&gt;&lt;p&gt;可参考&lt;a href=&quot;http://www.a-ho.com/2016/01/05/hexo-%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;blog&lt;/a&gt;或者&lt;a href=&quot;https://github.com/litten/hexo-theme-yilia&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;项目地址&lt;/a&gt;&lt;br&gt;进入 hexo 主目录,右击鼠标选择git bash&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;git &lt;span class=&quot;built_in&quot;&gt;clone&lt;/span&gt; https://github.com/litten/hexo-theme-yilia.git themes/yilia&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;修改配置文件&quot;&gt;&lt;a href=&quot;#修改配置文件&quot; class=&quot;headerlink&quot; title=&quot;修改配置文件&quot;&gt;&lt;/a&gt;修改配置文件&lt;/h3&gt;&lt;p&gt;配置:&lt;br&gt;修改hexo根目录下的&lt;br&gt;_config.yml ： theme: yilia&lt;/p&gt;
+&lt;h3 id=&quot;更新&quot;&gt;&lt;a href=&quot;#更新&quot; class=&quot;headerlink&quot; title=&quot;更新&quot;&gt;&lt;/a&gt;更新&lt;/h3&gt;&lt;p&gt;此步执行多次失败，在主目录修改_config.yml后，先&lt;br&gt;hexo generate&lt;br&gt;hexo deploy&lt;br&gt;再执行后面内容&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; themes/yilia&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;git pull&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;你的blog已经更新，浏览器输入地址可查看，如：zippera.github.io.git。&lt;/p&gt;
+&lt;h3 id=&quot;提示&quot;&gt;&lt;a href=&quot;#提示&quot; class=&quot;headerlink&quot; title=&quot;提示&quot;&gt;&lt;/a&gt;提示&lt;/h3&gt;&lt;p&gt;每次修改后更新&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo generate&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo deploy&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;或者他们的缩写&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo g&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo d&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;配置多说&quot;&gt;&lt;a href=&quot;#配置多说&quot; class=&quot;headerlink&quot; title=&quot;配置多说&quot;&gt;&lt;/a&gt;配置多说&lt;/h3&gt;&lt;h2 id=&quot;写Blog&quot;&gt;&lt;a href=&quot;#写Blog&quot; class=&quot;headerlink&quot; title=&quot;写Blog&quot;&gt;&lt;/a&gt;写Blog&lt;/h2&gt;&lt;h3 id=&quot;部署blog主页&quot;&gt;&lt;a href=&quot;#部署blog主页&quot; class=&quot;headerlink&quot; title=&quot;部署blog主页&quot;&gt;&lt;/a&gt;部署blog主页&lt;/h3&gt;&lt;h4 id=&quot;头像&quot;&gt;&lt;a href=&quot;#头像&quot; class=&quot;headerlink&quot; title=&quot;头像&quot;&gt;&lt;/a&gt;头像&lt;/h4&gt;&lt;p&gt;首先你得把头像图片上传到网上, 我是在网上找的图片。 &lt;a href=&quot;http://www.a-ho.com/2016/01/05/hexo-%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;参考&lt;/a&gt;&lt;br&gt;然后配置文件 themes/yilia/_config.yml :&lt;br&gt;设置头像&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;avatar: &lt;span class=&quot;string&quot;&gt;&quot;https://www.thongtincongnghe.com/sites/default/files/imagecache/xw640/images/2014/9/18/img-1411027212-1.jpg&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;网页icon&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;favicon: &lt;span class=&quot;string&quot;&gt;&quot;http://7xpsj5.com1.z0.glb.clouddn.com/%E5%B0%8F%E9%BB%84.jpg&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;写blog&quot;&gt;&lt;a href=&quot;#写blog&quot; class=&quot;headerlink&quot; title=&quot;写blog&quot;&gt;&lt;/a&gt;写blog&lt;/h3&gt;&lt;p&gt;我们的blog默认有一条Hello World，它不仅告诉我们怎么创建blog，我们还可以参考它的源代码，写出和它相同的效果。&lt;br&gt;Hello World代码的地址： hexo主页/source/_posts/hello_world.md&lt;/p&gt;
+&lt;p&gt;我们创建一条blog&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;生成文件：hexo主页/source/_posts/My-New-Post.md&lt;br&gt;可以用记事本打开编辑它。参考Hello World来写。&lt;br&gt;写完保存。&lt;/p&gt;
+&lt;p&gt;执行命令更新内容。&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo generate&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo deploy&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;一般情况下会乱码。&lt;/p&gt;
+&lt;h3 id=&quot;解决乱码&quot;&gt;&lt;a href=&quot;#解决乱码&quot; class=&quot;headerlink&quot; title=&quot;解决乱码&quot;&gt;&lt;/a&gt;解决乱码&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://blog.csdn.net/jiluben/article/details/40656935&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;参考&lt;/a&gt;&lt;br&gt;将博客文件保存为UTF-8即可解决问题。&lt;br&gt;方法：&lt;br&gt;    1.将博客文件保存为UTF-8:&lt;br&gt;    用记事本打开本地的博客文件“xxx.md”，然后点“另存为”，“编码(E):”选择“UTF-8”，点击“保存”，替换原文件。&lt;br&gt;    2.重新生成，部署，博客乱码即消除。&lt;/p&gt;
+&lt;h3 id=&quot;无法更新到Github上&quot;&gt;&lt;a href=&quot;#无法更新到Github上&quot; class=&quot;headerlink&quot; title=&quot;无法更新到Github上&quot;&gt;&lt;/a&gt;无法更新到Github上&lt;/h3&gt;&lt;p&gt;个人遇到的问题：创建博客后，执行&lt;br&gt;hexo generate&lt;br&gt;hexo deploy&lt;br&gt;发生错误，无法更新到Github上。本地可以看到更新内容。&lt;/p&gt;
+&lt;p&gt;网上寻找方法，好像是因为没有添加ssh，可&lt;a href=&quot;http://jingyan.baidu.com/article/d8072ac47aca0fec95cefd2d.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;参考&lt;/a&gt;,当我进入Github准备添加ssh时，发现Github上有一句话说：如果你有windows版github客户端，就不需要添加ssh。&lt;/p&gt;
+&lt;p&gt;个人最终解决方法：&lt;br&gt;安装github客户端后，桌面会有Git Shell图标，进入后执行命令，进入hexo主目录（用Linux命令），执行&lt;br&gt;hexo generate&lt;br&gt;hexo deploy&lt;br&gt;浏览器输入blog网址，更新成功。&lt;/p&gt;
+&lt;h3 id=&quot;使用图片&quot;&gt;&lt;a href=&quot;#使用图片&quot; class=&quot;headerlink&quot; title=&quot;使用图片&quot;&gt;&lt;/a&gt;使用图片&lt;/h3&gt;&lt;p&gt;首先确认 _config.yml 中有 post_asset_folder:true 。&lt;a href=&quot;https://codefalling.com/2015/12/19/no-pains-with-hexo-local-image/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;参考&lt;/a&gt;&lt;br&gt;在 hexo 目录，执行&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;npm install https://github.com/CodeFalling/hexo-asset-image --save&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;执行成功后，将图片放在/hexo主目录/public/日期/项目名/图片.jpg&lt;br&gt;例如：public/2016/07/07/My-New-Post/p1.jpg&lt;br&gt;&lt;img src=&quot;/2016/07/07/My-New-Post/p1.png&quot; alt=&quot;logo&quot;&gt;&lt;br&gt;使用时,引用语法：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;![logo](/2016/07/07/My-New-Post/p1.png)&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&quot;配置多说评论&quot;&gt;&lt;a href=&quot;#配置多说评论&quot; class=&quot;headerlink&quot; title=&quot;配置多说评论&quot;&gt;&lt;/a&gt;配置多说评论&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://www.a-ho.com/2016/01/05/hexo-%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;参考&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;几年前有使用过Google的blogger写过一段时间博客，不过后来渐渐懒惰了。最近工作遇到问题查找资料时，发现一些牛人把一些技术上难题的解决方法，以及自己所学得的技术，用Blog记录。觉得这是个不错的想法，一直有用word记录的习惯，不过Blog漂亮的书写，清晰的结构，配
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
