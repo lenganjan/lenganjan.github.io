@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-05-01T09:26:31.850Z</updated>
+  <updated>2017-05-01T09:30:33.426Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>如何搭建Hexo博客，加上Yilia 主题。</title>
-    <link href="http://yoursite.com/2017/05/01/My-New-Post/"/>
-    <id>http://yoursite.com/2017/05/01/My-New-Post/</id>
-    <published>2017-05-01T09:26:31.850Z</published>
-    <updated>2017-05-01T09:26:31.850Z</updated>
+    <link href="http://yoursite.com/2016/12/01/My-New-Post/"/>
+    <id>http://yoursite.com/2016/12/01/My-New-Post/</id>
+    <published>2016-12-01T04:30:44.000Z</published>
+    <updated>2017-05-01T09:30:33.426Z</updated>
     
     <content type="html">&lt;p&gt;在网上看到一个不错的的博客，布局完美，还有一些好的资源，附上链接&lt;a href=&quot;http://blog.isming.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;码农明明桑&lt;/a&gt;。刚开始想学习他的Blog来搭建自己的博客，不过无从下手，从他的域名看不出用什么网站搭建的，他的blog主页也没有发现有关信息（其实右下角有两个英文单词超链接就是所有答案，不过刚开始点击后，都是英文，觉得是无关的，没在意。）最后上网搜了几个类似的Blog，从他们的域名发现的答案，很多是以github.io为结尾，Github上搭建的Blog。&lt;br&gt;下面的搭建过程的记录。(运行环境Windows10_x64)&lt;br&gt;参考&lt;a href=&quot;http://www.zipperary.com/2013/05/28/hexo-guide-2/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;blog&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;创建Github-Blog&quot;&gt;&lt;a href=&quot;#创建Github-Blog&quot; class=&quot;headerlink&quot; title=&quot;创建Github Blog&quot;&gt;&lt;/a&gt;创建Github Blog&lt;/h2&gt;&lt;h3 id=&quot;创建Github账号&quot;&gt;&lt;a href=&quot;#创建Github账号&quot; class=&quot;headerlink&quot; title=&quot;创建Github账号&quot;&gt;&lt;/a&gt;创建Github账号&lt;/h3&gt;&lt;p&gt;在&lt;a href=&quot;http://www.github.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Github&lt;/a&gt;上注册&lt;/p&gt;
@@ -86,26 +86,6 @@
   </entry>
   
   <entry>
-    <title>Android IPC</title>
-    <link href="http://yoursite.com/2017/05/01/Test-One/"/>
-    <id>http://yoursite.com/2017/05/01/Test-One/</id>
-    <published>2017-05-01T08:38:44.000Z</published>
-    <updated>2017-05-01T09:17:17.708Z</updated>
-    
-    <content type="html">&lt;p&gt;#Hello World&lt;br&gt;你好&lt;br&gt;nihao&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;#Hello World&lt;br&gt;你好&lt;br&gt;nihao&lt;/p&gt;
-
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
     <link href="http://yoursite.com/2016/11/26/hello-world/"/>
     <id>http://yoursite.com/2016/11/26/hello-world/</id>
@@ -126,6 +106,26 @@
     <summary type="html">
     
       &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Android IPC</title>
+    <link href="http://yoursite.com/2015/03/01/Test-One/"/>
+    <id>http://yoursite.com/2015/03/01/Test-One/</id>
+    <published>2015-03-01T08:38:44.000Z</published>
+    <updated>2017-05-01T09:29:38.781Z</updated>
+    
+    <content type="html">&lt;p&gt;#Hello World&lt;br&gt;你好&lt;br&gt;nihao&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#Hello World&lt;br&gt;你好&lt;br&gt;nihao&lt;/p&gt;
+
     
     </summary>
     
