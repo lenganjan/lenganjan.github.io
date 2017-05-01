@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-05-01T09:17:17.708Z</updated>
+  <updated>2017-05-01T09:26:31.850Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,31 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Android IPC</title>
-    <link href="http://yoursite.com/2017/05/01/Test-One/"/>
-    <id>http://yoursite.com/2017/05/01/Test-One/</id>
-    <published>2017-05-01T08:38:44.000Z</published>
-    <updated>2017-05-01T09:17:17.708Z</updated>
-    
-    <content type="html">&lt;p&gt;#Hello World&lt;br&gt;你好&lt;br&gt;nihao&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;#Hello World&lt;br&gt;你好&lt;br&gt;nihao&lt;/p&gt;
-
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>如何搭建Hexo博客，加上Yilia 主题。</title>
-    <link href="http://yoursite.com/2016/11/27/My-New-Post/"/>
-    <id>http://yoursite.com/2016/11/27/My-New-Post/</id>
-    <published>2016-11-27T02:46:18.025Z</published>
-    <updated>2016-11-27T02:46:18.025Z</updated>
+    <link href="http://yoursite.com/2017/05/01/My-New-Post/"/>
+    <id>http://yoursite.com/2017/05/01/My-New-Post/</id>
+    <published>2017-05-01T09:26:31.850Z</published>
+    <updated>2017-05-01T09:26:31.850Z</updated>
     
     <content type="html">&lt;p&gt;在网上看到一个不错的的博客，布局完美，还有一些好的资源，附上链接&lt;a href=&quot;http://blog.isming.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;码农明明桑&lt;/a&gt;。刚开始想学习他的Blog来搭建自己的博客，不过无从下手，从他的域名看不出用什么网站搭建的，他的blog主页也没有发现有关信息（其实右下角有两个英文单词超链接就是所有答案，不过刚开始点击后，都是英文，觉得是无关的，没在意。）最后上网搜了几个类似的Blog，从他们的域名发现的答案，很多是以github.io为结尾，Github上搭建的Blog。&lt;br&gt;下面的搭建过程的记录。(运行环境Windows10_x64)&lt;br&gt;参考&lt;a href=&quot;http://www.zipperary.com/2013/05/28/hexo-guide-2/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;blog&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;创建Github-Blog&quot;&gt;&lt;a href=&quot;#创建Github-Blog&quot; class=&quot;headerlink&quot; title=&quot;创建Github Blog&quot;&gt;&lt;/a&gt;创建Github Blog&lt;/h2&gt;&lt;h3 id=&quot;创建Github账号&quot;&gt;&lt;a href=&quot;#创建Github账号&quot; class=&quot;headerlink&quot; title=&quot;创建Github账号&quot;&gt;&lt;/a&gt;创建Github账号&lt;/h3&gt;&lt;p&gt;在&lt;a href=&quot;http://www.github.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Github&lt;/a&gt;上注册&lt;/p&gt;
@@ -71,10 +51,14 @@
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo generate&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo deploy&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;或者他们的缩写&lt;/p&gt;
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo g&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo d&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;配置多说&quot;&gt;&lt;a href=&quot;#配置多说&quot; class=&quot;headerlink&quot; title=&quot;配置多说&quot;&gt;&lt;/a&gt;配置多说&lt;/h3&gt;&lt;h2 id=&quot;写Blog&quot;&gt;&lt;a href=&quot;#写Blog&quot; class=&quot;headerlink&quot; title=&quot;写Blog&quot;&gt;&lt;/a&gt;写Blog&lt;/h2&gt;&lt;h3 id=&quot;部署blog主页&quot;&gt;&lt;a href=&quot;#部署blog主页&quot; class=&quot;headerlink&quot; title=&quot;部署blog主页&quot;&gt;&lt;/a&gt;部署blog主页&lt;/h3&gt;&lt;h4 id=&quot;头像&quot;&gt;&lt;a href=&quot;#头像&quot; class=&quot;headerlink&quot; title=&quot;头像&quot;&gt;&lt;/a&gt;头像&lt;/h4&gt;&lt;p&gt;首先你得把头像图片上传到网上, 我是在网上找的图片。 &lt;a href=&quot;http://www.a-ho.com/2016/01/05/hexo-%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;参考&lt;/a&gt;&lt;br&gt;然后配置文件 themes/yilia/_config.yml :&lt;br&gt;设置头像&lt;/p&gt;
+&lt;h3 id=&quot;配置多说&quot;&gt;&lt;a href=&quot;#配置多说&quot; class=&quot;headerlink&quot; title=&quot;配置多说&quot;&gt;&lt;/a&gt;配置多说&lt;/h3&gt;&lt;h2 id=&quot;写Blog&quot;&gt;&lt;a href=&quot;#写Blog&quot; class=&quot;headerlink&quot; title=&quot;写Blog&quot;&gt;&lt;/a&gt;写Blog&lt;/h2&gt;&lt;h3 id=&quot;部署blog主页&quot;&gt;&lt;a href=&quot;#部署blog主页&quot; class=&quot;headerlink&quot; title=&quot;部署blog主页&quot;&gt;&lt;/a&gt;部署blog主页&lt;/h3&gt;&lt;h4 id=&quot;头像&quot;&gt;&lt;a href=&quot;#头像&quot; class=&quot;headerlink&quot; title=&quot;头像&quot;&gt;&lt;/a&gt;头像&lt;/h4&gt;&lt;p&gt;首先你得把头像图片上传到网上, 我是在网上找的图片。 &lt;a href=&quot;http://www.a-ho.com/2016/01/05/hexo-%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;参考&lt;/a&gt;&lt;br&gt;然后配置文件 themes/yilia/_config.yml :&lt;/p&gt;
+&lt;p&gt;设置头像&lt;/p&gt;
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;avatar: &lt;span class=&quot;string&quot;&gt;&quot;https://www.thongtincongnghe.com/sites/default/files/imagecache/xw640/images/2014/9/18/img-1411027212-1.jpg&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;网页icon&lt;/p&gt;
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;favicon: &lt;span class=&quot;string&quot;&gt;&quot;http://7xpsj5.com1.z0.glb.clouddn.com/%E5%B0%8F%E9%BB%84.jpg&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;本地显示头像，上传服务器无法显示&lt;/p&gt;
+&lt;p&gt;直接修改layout/_partial/left-col.ejs的第六行和第八行为：&lt;br&gt;&lt;a href=&quot;https://github.com/litten/hexo-theme-yilia/issues/288&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;参考&lt;/a&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;lt;img src=&lt;span class=&quot;string&quot;&gt;&quot;&amp;lt;%=theme.avatar%&amp;gt;&quot;&lt;/span&gt; class=&lt;span class=&quot;string&quot;&gt;&quot;js-avatar show&quot;&lt;/span&gt;&amp;gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;lt;img src=&lt;span class=&quot;string&quot;&gt;&quot;&amp;lt;%=theme.avatar%&amp;gt;&quot;&lt;/span&gt; class=&lt;span class=&quot;string&quot;&gt;&quot;js-avatar show&quot;&lt;/span&gt; style=&lt;span class=&quot;string&quot;&gt;&quot;width: 100%;height: 100%;opacity: 1;&quot;&lt;/span&gt;&amp;gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;写blog&quot;&gt;&lt;a href=&quot;#写blog&quot; class=&quot;headerlink&quot; title=&quot;写blog&quot;&gt;&lt;/a&gt;写blog&lt;/h3&gt;&lt;p&gt;我们的blog默认有一条Hello World，它不仅告诉我们怎么创建blog，我们还可以参考它的源代码，写出和它相同的效果。&lt;br&gt;Hello World代码的地址： hexo主页/source/_posts/hello_world.md&lt;/p&gt;
 &lt;p&gt;我们创建一条blog&lt;/p&gt;
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -95,6 +79,26 @@
     <summary type="html">
     
       &lt;p&gt;在网上看到一个不错的的博客，布局完美，还有一些好的资源，附上链接&lt;a href=&quot;http://blog.isming.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;码农明明桑&lt;/a&gt;。刚开始想学习他的Blog来搭建自己的博客，不过无从下手，从他的
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Android IPC</title>
+    <link href="http://yoursite.com/2017/05/01/Test-One/"/>
+    <id>http://yoursite.com/2017/05/01/Test-One/</id>
+    <published>2017-05-01T08:38:44.000Z</published>
+    <updated>2017-05-01T09:17:17.708Z</updated>
+    
+    <content type="html">&lt;p&gt;#Hello World&lt;br&gt;你好&lt;br&gt;nihao&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#Hello World&lt;br&gt;你好&lt;br&gt;nihao&lt;/p&gt;
+
     
     </summary>
     
